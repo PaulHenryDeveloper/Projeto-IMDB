@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMDb Movie Search</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center text-orange">IMDb Movie Search</h1>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6">
+        <input type="text" id="search-input" class="form-control" placeholder="Enter movie name...">
+        <button id="search-button" class="btn btn-orange btn-block mt-2">Search</button>
+      </div>
+    </div>
+    <div class="row mt-4" id="movie-list"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
