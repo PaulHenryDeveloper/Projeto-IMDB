@@ -1,6 +1,4 @@
 # Bem-vindos
 
-### Criadores
-
-- PaulHenry
-- LaaraSafin
+>[!Note]
+>Cuidado com o bixo papão
